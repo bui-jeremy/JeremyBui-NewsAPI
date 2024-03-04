@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bignerdranch.android.jeremybui_newsapi.databinding.ListItemNewsBinding
 
 class NewsListAdapter(
-    private var articles: MutableList<Article>, // Use a specific type for articles
+    private var articles: MutableList<Article>,
     private val onClick: (Article) -> Unit
 ) : RecyclerView.Adapter<NewsListAdapter.ArticleViewHolder>() {
 
